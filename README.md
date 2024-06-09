@@ -83,23 +83,162 @@ Software Requirement Management
 
 
 Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems?
+
+Modularity in software design refers to the practice of partitioning a software system into realistic, manageable modules where  portion is managed independently with specific responsibilities
+it improves:Isolating the  Changes
+ Problems can be isolated thus easy to identify and fix issues.
+simple testing
+
+
+
+
 Testing in Software Engineering:
 
 Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?
+
+1: Unit Testing
+Unit testing is the first level of software testing, which is used to test if software modules are satisfying the given requirement or not.
+
+The first level of testing involves analyzing each unit or an individual component of the software application.
+
+Unit testing is also the first level of functional testing. The primary purpose of executing unit testing is to validate unit components with their performance.
+
+A unit component is an individual function or regulation of the application, or we can say that it is the smallest testable part of the software. The reason of performing the unit testing is to test the correctness of inaccessible code.
+
+Unit testing will help the test engineer and developers in order to understand the base of code that makes them able to change defect causing code quickly. The developers implement the unit.
+
+
+2: Integration Testing
+The second level of software testing is the integration testing. The integration testing process comes after unit testing.
+
+It is mainly used to test the data flow from one module or component to other modules.
+
+3: System Testing
+The third level of software testing is system testing, which is used to test the software's functional and non-functional requirements.
+
+It is end-to-end testing where the testing environment is parallel to the production environment. In the third level of software testing, we will test the application as a whole system.
+
+4: Acceptance Testing
+The last and fourth level of software testing is acceptance testing, which is used to evaluate whether a specification or the requirements are met as per its delivery.
+
+The software has passed through three testing levels (Unit Testing, Integration Testing, System Testing). Some minor errors can still be identified when the end-user uses the system in the actual scenario.
+
+
+
+
+
 Version Control Systems:
 
 What are version control systems, and why are they important in software development? Give examples of popular version control systems and their features.
+
+Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. 
+Benefits of the version control system:
+
+1)Enhances the project development speed by providing efficient collaboration,
+2)Leverages the productivity, expedites product delivery, and skills of the employees through better communication and assistance,
+3)Reduce possibilities of errors and conflicts meanwhile project development through traceability to every small change,
+4)Employees or contributors of the project can contribute from anywhere irrespective of the different geographical locations through this VCS,
+5)For each different contributor to the project, a different working copy is maintained and not merged to the main file unless the working copy is validated. The most popular example is Git, Helix core, Microsoft TFS,
+6)Helps in recovery in case of any disaster or contingent situation,
+7)Informs us about Who, What, When, Why changes have been made.
+
+Types of Version Control Systems
+Local Version Control Systems
+Centralized Version Control Systems
+Distributed Version Control Systems
+
 Software Project Management:
 
 Discuss the role of a software project manager. What are some key responsibilities and challenges faced in managing software projects?
+
+1. Project Estimation
+Project Size Estimation is the most significant parameter based on which all other estimations like cost, duration and effort are made.
+Cost Estimation- Total expenses to develop the software product is estimated.
+Time Estimation: The total time required to complete the project.
+Effort Estimation: The effort needed to complete the project is estimated.
+2. Scheduling
+After the completion of the estimation of all the project parameters, scheduling for manpower and other resources is done.
+
+3. Staffing
+Team structure and staffing plans are made.
+
+4. Risk Management
+The project manager should identify the unanticipated risks that may occur during project development risk, analyze the damage that might cause these risks, and take a risk reduction plan to cope with these risks.
+
+5.Lead the team: The project manager must be a good leader who makes a team of different members of various skills and can complete their individual tasks.
+Motivate the team-member: One of the key roles of a software project manager is to encourage team members to work properly for the successful completion of the project.
+6. Monitoring and reviewing- Project monitoring is a continuous process that lasts the whole time a product is being developed, during which the project manager compares actual progress and cost reports with anticipated reports as soon as possible. While most firms have a formal system in place to track progress, qualified project managers may still gain a good understanding of the project’s development by simply talking with participants.
+7. Documenting project report- The project manager prepares the documentation of the project for future purposes. The reports contain detailed features of the product and various techniques. These reports help to maintain and enhance the quality of the project in the future.
+8. Reporting- Reporting project status to the customer and his or her organization is the responsibility of the project manager. Additionally, they could be required to prepare brief, well-organized pieces that summarize key details from in-depth studies.  
+
 Software Maintenance:
 
 Define software maintenance and explain the different types of maintenance activities. Why is maintenance an essential part of the software lifecycle?
+
+Software Maintenance
+Software maintenance is a part of the Software Development Life Cycle. Its primary goal is to modify and update software application after delivery to correct errors and to improve performance. Software is a model of the real world. When the real world changes, the software require alteration wherever possible.
+
+Software Maintenance is an inclusive activity that includes error corrections, enhancement of capabilities, deletion of obsolete capabilities, and optimization.
+Software Maintenance is needed for
+Correct errors
+Change in user requirement with time
+Changing hardware/software requirements
+To improve system efficiency
+To optimize the code to run faster
+To modify the components
+To reduce any unwanted side effects
+
+1. Corrective Maintenance
+Corrective maintenance aims to correct any remaining errors regardless of where they may cause specifications, design, coding, testing, and documentation, etc.
+
+2. Adaptive Maintenance
+It contains modifying the software to match changes in the ever-changing environment.
+
+3. Preventive Maintenance
+It is the process by which we prevent our system from being obsolete. It involves the concept of reengineering & reverse engineering in which an old system with old technology is re-engineered using new technology. This maintenance prevents the system from dying out.
+
+4. Perfective Maintenance
+It defines improving processing efficiency or performance or restricting the software to enhance changeability. This may contain enhancement of existing system functionality, improvement in computational efficiency, etc.
+
 Ethical Considerations in Software Engineering:
 
 What are some ethical issues that software engineers might face? How can software engineers ensure they adhere to ethical standards in their work?
-Submission Guidelines:
-Your answers should be well-structured, concise, and to the point.
-Provide real-world examples or case studies wherever possible.
-Cite any references or sources you use in your answers.
-Submit your completed assignment by [due date].
+
+1. Unethical data collection
+With the shift to digital marketing, companies are exponentially valuing user data. It’s an important source to use in development. However, it’s easy to get carried away in the act of acquiring it. Customers have to be fully aware of what information they’re sharing and how it’s going to be used.
+
+Software developers face a difficult choice regarding personal data. They have two options: develop systems that possibly abuse user data or voice concerns despite going against the project’s objectives.
+
+The best-case scenario is you should be free to voice worries about personal data ownership. If the use case violates privacy, legal, or ethical standards, the organization should investigate further and determine this on its own.
+
+2. Algorithmic bias
+Computers cannot understand morality as a concept. When it is not thoroughly checked, its systems can unintentionally show bias. For instance, when it was discovered that Google’s image processing engine couldn’t adequately reflect black and brown skin tones in images, the company came under fire for allegedly fostering systematic racism.
+
+Software developers must deliberate potential biases in developing their products. By studying social norms and analyzing their current data, they can prevent wrong assumptions in the collection and use of information.
+
+On the client’s end, they can prevent these mishaps by fostering a culture that encourages employees to speak up if they think a software feature is inappropriate. Being critical of the product helps address algorithmic prejudice.
+
+3. Weak security
+The software industry is prone to security issues. Developers need further education to learn and implement proper security practices. However, these kinds of training are often limited to cybersecurity-specific seminars.
+
+Software experts have to take the initiative in learning security protocols. Fortunately, there are now plenty of development resources to strengthen one’s skills and knowledge about cybersecurity. As a software developer, it is your duty to implement and update your project with standardized security.
+
+Depending on the type of website or application you’re developing, there are now protection guidelines you can refer to. For example, if you’re developing a health application, you can refer to the Payment Card Industry Data Security Standard (PCI DSS) and the Health Insurance Portability and Accountability Act (HIPPA).
+
+4. Wrong Priorities
+A lot of software engineering teams devote too much time to creating new features and improving the functionality of their products. However, they typically make the mistake of neglecting to customize and improve the existing functions. Unfortunately, in these situations, ethics frequently take a backseat. This may result in some ethical issues in software development.
+
+
+ways of adhering
+
+1. Be proactive
+While you work honestly when writing code, there’s no telling where it can lead to. The client and your team can easily veer away from the original purpose of your project. Throughout the process of development, think of the potential threats and misconduct that can happen. As a software engineer, you must assess the current technology you’re developing and take proactive measures to address any potential abuse and other ethical issues in software development.
+
+2. Be honest
+Falsely advertising features or exaggerating the performance quality is unethical. Be straightforward and truthful while describing your goods. Inform the audience if the vision changes. Inform stakeholders as soon as there are updates or modifications to the software. To ensure that the product will be utilized as intended, create policies with the help of other teams inside your organization.
+
+3. Be accountable
+You should strive to improve the integrity and reputation of the profession as a software engineer. For instance, you should avoid making false claims regarding your application that could be deceptive or misleading. Make sure you keep your employer, clients, customers, and other stakeholders in the loop by reporting software issues and other potential ethical issues in software development.
+
+4. Be a responsible citizen 
+Software developers have this opportunity to build a product that will either benefit users or hurt them. Prioritize your responsibilities as a good citizen over your reputation as an expert. Only work on projects that you believe are secure, comply with specifications, and can withstand mandatory testing. By offering your expert technical services to worthy causes, you act responsibly as a citizen.
